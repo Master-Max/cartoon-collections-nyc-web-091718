@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   count = 1
   dwarves.each do |d|
     puts count + " " + d
+    count += 1
   end
 end
 
