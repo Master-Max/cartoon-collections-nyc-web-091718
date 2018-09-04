@@ -1,7 +1,8 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
+  count = 1
   dwarves.each do |d|
-    puts d
+    puts count + " " + d
   end
 end
 
